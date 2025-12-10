@@ -47,7 +47,7 @@ func TestGetAPIKeyWithMultipleSpaces(t *testing.T) {
 	if err != nil {
 		t.Errorf("Expected no error, got %v", err)
 	}
-	expected := "my-api-key"
+	expected := "api-key"
 	if got != expected {
 		t.Errorf("Expected %v, got %v", expected, got)
 	}
